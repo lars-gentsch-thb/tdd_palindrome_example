@@ -16,19 +16,22 @@ public class PalindromCheckerTest {
         assertTrue(isPalindrome, "Given text should be a palindrome.");
     }
 
-    // Ein text der kein Palindrom ist soll abgelehnt werden
+    // Ein Text der kein Palindrom ist soll abgelehnt werden
+    @Test
     public void A_text_with_a_invalid_palidrome_should_be_rejected() {
         String text = "bus";
         boolean isPalindrome = isPalindrome(text);
         assertFalse(isPalindrome, "Given text should not be a palindrome.");
     }
 
-    // Leerzeichen vor oder hinten sollen ignoriert werden
+    // Test mit führende Leerzeichen ist kein Palindrom
 
     // Ein null-Objekt ist kein Palindrom
 
     // Groß- und Kleinschreibung soll ignoriert werden
 
     // Sonderzeichen sind kein Palindrom
+
+    // Leerzeichen vorn oder hinten sollen ignoriert werden
 
 }
