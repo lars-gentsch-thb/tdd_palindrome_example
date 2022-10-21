@@ -17,12 +17,13 @@ public class PalindromCheckerTest {
     }
 
     // Ein Text der kein Palindrom ist soll abgelehnt werden
-    @Test
+/*    @Test
     public void A_text_with_a_invalid_palidrome_should_be_rejected() {
         String text = "bus";
         boolean isPalindrome = isPalindrome(text);
         assertFalse(isPalindrome, "Given text should not be a palindrome.");
     }
+*/
 
     // Test mit führende Leerzeichen ist kein Palindrom
 
